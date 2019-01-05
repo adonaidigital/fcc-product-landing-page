@@ -7,13 +7,14 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto, 1fr);
     grid-auto-rows: minmax(100px, auto);
     max-width: 960px;
     margin: 0 auto;
     grid-gap: 2px;
     grid-template-areas:
     "header header header"
+    "article article article"
     "section section section"
     "aside aside aside"
     "form form form"
@@ -25,7 +26,7 @@ main > * {
     padding: 30px;
 }
 
-.logo {
+#header-img {
     margin-top: -60px;
     width: 55px;
 }
@@ -36,7 +37,7 @@ header {
 }
 
 header > nav {
-    margin-left: auto;   
+    margin-left:auto;   
 }
 
 #header{
@@ -44,9 +45,16 @@ header > nav {
     position: fixed;
     max-width: 900px;
     width: 100%;
-    margin: 0 auto;
-
+    margin:0 auto;
 }
+
+article {
+    grid-area: article;
+}
+/* .about {
+    width: 600px;
+} */
+
 aside {
     grid-area: aside;
 }
@@ -54,11 +62,11 @@ aside {
 .pdct{
     display: flex;
     max-width: 250px;
-    /* width: 100%; */
+    width: 100%;
     padding: 3px;
     margin: 0 auto;
     margin-bottom: 12px;
-    /* border: 1px solid black; */
+    
 }
   
 section {
@@ -76,7 +84,7 @@ footer{
 li {
     list-style-type: none;
     display: inline;
-    padding: 20px;
+    padding-right: 40px;
 }
 div {
     border: 1px solid grey;
@@ -88,3 +96,7 @@ div {
     justify-content: center;
     align-items: center;
 } 
+/* #video{
+    max-width: 400px;
+    width: 100%;
+} */

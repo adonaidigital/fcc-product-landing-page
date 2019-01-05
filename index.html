@@ -7,30 +7,57 @@
     <title>Fcc Merchants</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
 </head>
 <body>
     <main>
     <header id="header">
         <h1> 
-            <img src="fccMerchants.png" class="logo" alt="company logo">
+            <img id="header-img" src="https://previews.dropbox.com/p/thumb/AATmPMhqPH4e3GoPIFgWg9ymtuIidsi5n4eVjqNFhZFANU_FlM043fQuNgE9Vwkw2yLtcyv7_Sz4DsxmcDfpHsspTSvgf2lBzr657neOByNzHMtkO8ChSj_ugqRyIRAVRhct8dL3tQZx2fHBPXVrkT_e4pwWxrQn_Y7hYKUDlxdhecd5mCheoMztGFAdgybkVPmJAIzXquLzrM5sw3sUCY1h2jR447FeOeAnZpUbaFML-23vr7EeASJdMWF48CoNd6gKtMoyH4JoLOM7i68HagU5LbcUMJUA-4Yvm6JjxLxIu0sL_Buonw8U6nroouQ0bAo/p.jpeg?size=1280x960&size_mode=3" alt="company logo">
         </h1>
         
         <nav id="nav-bar">
             <ul>
-                <li><a href="" class="nav-link">about</a></li>
-                <li><a href="" class="nav-link">blog</a></li>
-                <li><a href="" class="nav-link">features</a></li>
-                <li><a href="" class="nav-link">pricing</a></li>
+                <li><a href="#about" class="nav-link">about</a></li>
+                <li><a href="#product" class="nav-link">products</a></li>
+                <li><a href="#video" class="nav-link">video</a></li>
+                <li><a href="#subscribe" class="nav-link">subscribe</a></li>
             </ul>
         </nav>
     </header>
 
-    <aside id="media">
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/LJTRZI2HThU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <article >
+        <h2><a name="about">Whistle Blower</a></h2>
+        <p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente culpa magni deserunt id quis rem possimus cum, dolore fugit illum similique modi iusto! Obcaecati error quaerat maxime dolorem architecto.
+        </p>
+    </article>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <aside id="video">
+        <a name="video">
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/LJTRZI2HThU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
     </aside>
 
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
     <section id="products">
-        
+        <a name="product"></a>
            <li class="pdct">
                <div class="tru">
                     <div class="range">
@@ -79,13 +106,20 @@
                     <button class="btn">SELECT</button>    <!-- <source src=""> -->
                </div>
             </li>
-        
     </section>
+ 
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <form action="https://www.freecodecamp.com/email-submit" target="blank" id="subscribe">
+    
+    <form action="https://www.freecodecamp.com/email-submit" target="blank" id="form">
+        <a name="subscribe"></a>
         <label for="email">Subscribe</label>
-        <input type="email" id="email" placeholder="joe@example.com">
-        <input type="submit" id="submit">
+        <input type="email" id="email" placeholder="joe@example.com" required>
+        <input type="submit" id="submit" value="subscribe">
+        
     </form>
     <footer id="footer" >
         <p>No Wrongs Reserved <strong> &#169; </strong> 2019 </p>
