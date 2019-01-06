@@ -46,6 +46,7 @@ header > nav {
     max-width: 900px;
     width: 100%;
     margin:0 auto;
+    
 }
 
 article {
@@ -100,3 +101,13 @@ div {
     max-width: 400px;
     width: 100%;
 } */
+@media (max-width:650px){
+    header{
+     position: absolute;
+    }
+    #header-img .nav-link {
+      text-align: center;
+      padding: 10px;
+    }
+   
+   }
