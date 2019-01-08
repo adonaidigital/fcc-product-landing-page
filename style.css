@@ -3,6 +3,7 @@ body{
     font-family: 'Trebuchet MS', Arial, sans-serif;
     text-align: center;
     margin: 0;
+    padding:0;
 }
 
 main{
@@ -23,10 +24,12 @@ main{
 
 main > * {
     background: #FFC0CB;
-    padding: 30px;
+    padding:20px;
+    
+/*     margin: 0; */
 }
 
-#header-img {
+#header-img{
     margin-top: -60px;
     width: 55px;
 }
@@ -37,16 +40,17 @@ header {
 }
 
 header > nav {
-    margin-left:auto;   
+    margin-left:auto;
+/*     position: absolute; */
 }
 
 #header{
     display: flex;
     position: fixed;
-    max-width: 900px;
+    max-width: 920px;
     width: 100%;
-    margin:0 auto;
-    
+    margin:0;
+    top: 0;
 }
 
 article {
@@ -97,17 +101,21 @@ div {
     justify-content: center;
     align-items: center;
 } 
-/* #video{
-    max-width: 400px;
-    width: 100%;
-} */
+
+#footer{
+  bottom: 0;
+  margin: 0;
+  padding-bottom: 0;
+ 
+}
+
 @media (max-width:650px){
-    header{
-     position: absolute;
-    }
-    #header-img .nav-link {
-      text-align: center;
-      padding: 10px;
-    }
-   
-   }
+ header{
+  position: absolute;
+ }
+  #header-img .nav-link {
+   text-align: center;
+/*    padding: 10px; */
+ }
+
+}

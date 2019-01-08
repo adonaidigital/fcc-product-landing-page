@@ -19,7 +19,7 @@
         <nav id="nav-bar">
             <ul>
                 <li><a href="#about" class="nav-link">about</a></li>
-                <li><a href="#product" class="nav-link">products</a></li>
+                <li><a href="#products" class="nav-link">products</a></li>
                 <li><a href="#video" class="nav-link">video</a></li>
                 <li><a href="#form" class="nav-link">subscribe</a></li>
             </ul>
@@ -32,7 +32,7 @@
     <br>
 
     
-    <article id="about" >
+    <article id="about">
         <h2>Whistle Blower</h2>
         <p>
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente culpa magni deserunt id quis rem possimus cum, dolore fugit illum similique modi iusto! Obcaecati error quaerat maxime dolorem architecto.
@@ -45,8 +45,11 @@
     <br>
 
     
-    <aside id="video">
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/LJTRZI2HThU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <aside id="vid">
+      
+         <p><strong>Learn to be a whistle blower</strong></p>
+        <iframe id="video" width="400" height="315" src="https://www.youtube.com/embed/LJTRZI2HThU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
     </aside>
 
     <br>
@@ -55,7 +58,9 @@
     <br>
 
     
-    <section id="product">
+    <section id="products">
+<!--         <h2>Our best Whistle</h2> -->
+<!--       <ul> -->
            <li class="pdct">
                <div class="tru">
                     <div class="range">
@@ -104,18 +109,18 @@
                     <button class="btn">SELECT</button>    <!-- <source src=""> -->
                </div>
             </li>
+<!--         </ul> -->
     </section>
- 
+
     <br>
     <br>
     <br>
     <br>
 
-    
-    <form action="https://www.freecodecamp.com/email-submit" target="blank" id="form">
-        
+    <form id="form" action="https://www.freecodecamp.com/email-submit" target="blank">
+<!--         <a name="subscribe"></a> -->
         <label for="email">email:</label>
-        <input type="email" id="email" placeholder="joe@example.com" required>
+        <input type="email" id="email" placeholder="joe@example.com" name="email" required>
         <input type="submit" id="submit" value="subscribe">
         
     </form>
